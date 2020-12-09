@@ -1,5 +1,7 @@
 language: erlang
-
+arch:
+ - amd64
+ - ppc64le
 env:
   - LUA=""
   - LUA="luajit"
